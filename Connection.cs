@@ -85,6 +85,7 @@ class Connection
     }
   }
 
+  //Print trackframes
   public void PrintTrackFrame(TrackFrame trackFrame)
   {
     Console.WriteLine($"Timestamp: {trackFrame.Timestamp}");
