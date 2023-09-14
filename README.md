@@ -18,3 +18,25 @@ cd be-interview/
 ```
 dotnet run
 ```
+
+## Problem Description
+
+**Situation**: 
+<br />
+The current code base will connect to a websocket and receive a `Trackframe` every second. A `Trackframe` is a representation of objects and their position at specific moment of time. The `Trackframe` object have a list of object's coordinates/id's, and a timestamp. The websocket will emit 2 minutes worth of frames(120 `Trackframes`) before repeating itself.
+<br />
+<br />
+There is also a `Region` object where a list coordinates represents a corner of a square.
+
+**Assignment**:
+<br />
+For every `Trackframe` that is emitted, we would like to know a cumulative number of objects that have entered the square `Region`. Display this value every 10 seconds.
+<br />
+<br />
+***Ex.***
+If 4 objects entered the square in the first 10 seconds and 10 objects entered the squre in the next 10 seconds. The output should look like this
+```
+4
+14
+```
+
