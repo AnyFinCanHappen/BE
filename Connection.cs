@@ -15,10 +15,10 @@ class Connection
   public Connection()
   {
     Coordinate[] coords = {
-      new Coordinate(50.68303527832031, 77.09662475585938),
-      new Coordinate(57.09144523215866, 77.09662475585938),
-      new Coordinate(57.09144523215866, 84.41198120117188),
-      new Coordinate(50.68303527832031, 84.41198120117188)
+      new Coordinate(15, 15),
+      new Coordinate(15, -15),
+      new Coordinate(-15, -15),
+      new Coordinate(-15, 15)
     };
     this.SquareRegion = new Region(coords);
     this.SerializerOptions = new JsonSerializerOptions
