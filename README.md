@@ -30,11 +30,11 @@ There is also a `Region` object where a list coordinates represents a corner of 
 
 **Assignment**:
 <br />
-For every `Trackframe` that is emitted, we would like to know a cumulative number of objects that have entered the square `Region`. Display this value every 10 seconds.
+For every `Trackframe` that is emitted, we would like to know a cumulative number of objects that have entered the square `Region`. Display this value every second.
 <br />
 <br />
 ***Ex.***
-If 4 objects entered the square in the first 10 seconds and 10 objects entered the squre in the next 10 seconds. The output should look like this
+If 4 objects entered the square in the first second and 10 objects entered the squre in the next second. The output should look like this
 ```
 4
 14

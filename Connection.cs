@@ -86,11 +86,6 @@ class Connection
     }
   }
 
-  public bool IsInRegion(Coordinate coord, Region region)
-  {
-    return false;
-  }
-
   //Print trackframes
   public void PrintTrackFrame(TrackFrame trackFrame)
   {
