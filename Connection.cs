@@ -9,15 +9,16 @@ class Connection
 {
   Uri Uri = new Uri("wss://api-tpa-test.theindoorlab.com/v4/interview");
   Region SquareRegion;
+
   JsonSerializerOptions SerializerOptions;
 
   public Connection()
   {
     Coordinate[] coords = {
-      new Coordinate(506.8303527832031, 770.9662475585938),
-      new Coordinate(570.9144523215866, 770.9662475585938),
-      new Coordinate(570.9144523215866, 844.1198120117188),
-      new Coordinate(506.8303527832031, 844.1198120117188)
+      new Coordinate(50.68303527832031, 77.09662475585938),
+      new Coordinate(57.09144523215866, 77.09662475585938),
+      new Coordinate(57.09144523215866, 84.41198120117188),
+      new Coordinate(50.68303527832031, 84.41198120117188)
     };
     this.SquareRegion = new Region(coords);
     this.SerializerOptions = new JsonSerializerOptions
@@ -83,6 +84,11 @@ class Connection
         }
       }
     }
+  }
+
+  public bool IsInRegion(Coordinate coord, Region region)
+  {
+    return false;
   }
 
   //Print trackframes

@@ -1,10 +1,10 @@
 class Coordinate {
 
   public Coordinate(double x, double y) {
-    X = x;
-    Y = y;
+    this.X = x;
+    this.Y = y;
   }
 
-  double X { get; set; }
-  double Y { get; set; }
+  public double X { get; set; }
+  public double Y { get; set; }
 }

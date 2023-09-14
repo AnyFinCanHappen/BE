@@ -5,5 +5,5 @@ class Region {
     this.points = points;
   }
 
-  Coordinate[] points { get; set; }
+  public Coordinate[] points { get; set; }
 }
