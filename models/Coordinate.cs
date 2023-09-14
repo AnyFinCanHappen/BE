@@ -1,8 +1,8 @@
 class Coordinate {
 
   public Coordinate(double x, double y) {
-    this.X = x;
-    this.y = y;
+    X = x;
+    Y = y;
   }
 
   double X { get; set; }
