@@ -6,7 +6,7 @@
 1. Clone the repository.
 
 ```
-git clone https://stan-indoorlab@gitlab.com/askboss/blattnertech-subsidaries/the-indoor-lab/be-interview.git
+git clone https://github.com/AnyFinCanHappen/BE.git
 ```
 
 2. Change directory to the project.
